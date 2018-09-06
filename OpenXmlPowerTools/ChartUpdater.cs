@@ -355,7 +355,7 @@ namespace OpenXmlPowerTools
                             firstSeries.Elements(C.smooth),
                             firstSeries.Elements(C.extLst));
                     }
-                    else if (chartType == C.doughnutChart || chartType == C.ofPieChart || chartType == C.pie3DChart || chartType == C.pieChart)
+                    else if (chartType == C.doughnutChart || chartType == C.ofPieChart || chartType == C.pie3DChart || chartType == C.pieChart || chartType == C.radarChart)
                     {
                         newSer = new XElement(C.ser,
                             // common
